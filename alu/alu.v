@@ -28,7 +28,7 @@ module alu(a_i,b_i,op_i,res_o);
                 res_o = a_i >> b_i;
             end
             else begin
-                res_o = 8'b00000000;
+                res_o = 8'b00000010;
             end
         end
 
