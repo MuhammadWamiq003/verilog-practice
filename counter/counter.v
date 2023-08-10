@@ -6,10 +6,10 @@ module counter(res,clk,out);
     always @ (posedge clk)
     begin
         if (res) begin
-            out = 4'b0000;
+            out <= 4'b0000;
         end
         else begin
-            out = out + 1'b1;
+            out <= out + 1'b1;
         end
     end
 
